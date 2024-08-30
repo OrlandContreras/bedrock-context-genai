@@ -1,0 +1,11 @@
+[package]
+name = "bedrock-context-genai"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.9.0", features = ["full"] }
+aws-config = "1.5.5"
+aws-sdk-bedrock = "1.47.0"
+aws-sdk-bedrockruntime = "1.47.0"
+serde_json = "1.0.127"
